@@ -1,0 +1,18 @@
+.cuerpo img {
+	margin: 20px 40px;
+	width: 250px;
+	height: 200px;
+}
+.cuadros {
+	padding: 20px 0;
+}
+hr {
+	margin: 0 40px;
+}
+footer {
+	padding: 2%;
+}
+.cuadros img:hover {
+	transform: scale(1.1);
+	transition: .4s;
+}

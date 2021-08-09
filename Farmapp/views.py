@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def Farmapp(request):
 	return HttpResponse("Hola mundo")
+
+def index(request):
+	return render(request, 'HTML/index.html')
+	pass
